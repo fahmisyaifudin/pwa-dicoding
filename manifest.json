@@ -1,0 +1,22 @@
+{
+    "name": "Informasi Liga Inggris",
+    "short_name": "LigaInggris",
+    "description": "Informasi Liga Inggris",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fafafa",
+    "theme_color": "#fafafa",
+    "icons": [
+        {
+            "src": "images/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon_192x192.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "gcm_sender_id": "1079115611866"
+}
