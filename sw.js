@@ -19,9 +19,9 @@ workbox.precaching.precacheAndRoute([
     { url: '/images/icon.png', revision: '1' },
     { url: '/images/icon_192x192.png', revision: '1' },
     { url: '/js/materialize.min.js', revision: '1' },
-    { url: '/js/database.html', revision: '1' },
-    { url: '/js/index.html', revision: '1' },
-    { url: '/js/jadwal.html', revision: '1' },
+    { url: '/database.html', revision: '1' },
+    { url: '/index.html', revision: '1' },
+    { url: '/jadwal.html', revision: '1' },
     { url: 'manifest.json', revision: '1' },
 ]);
 
@@ -29,6 +29,13 @@ workbox.routing.registerRoute(
   /\.(?:html)$/,
   workbox.strategies.staleWhileRevalidate({
       cacheName: 'pages'
+  })
+);
+
+workbox.routing.registerRoute(
+  /^https:\/\/api\.football-data\.org/,
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: 'football-api',
   })
 );
 

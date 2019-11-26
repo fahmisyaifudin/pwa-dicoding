@@ -12,10 +12,10 @@ webPush.setVapidDetails(
    vapidKeys.privateKey
 )
 var pushSubscription = {
-   "endpoint": "https://fcm.googleapis.com/fcm/send/cZ3QJ9-nxrU:APA91bE1kw3K3xPy7QmlHoPZCnOXGatmQgC3_c8Zc_TCGoR4TTlm8m4U1D6lnOe-5il7eOpTl5jgOZ5qhTiGChkxYJVQv15MZufF_m81aCH1vwXuzGeF8jJ0Lf6Ge5EDRwkGxcyyjjwa",
+   "endpoint": "https://fcm.googleapis.com/fcm/send/dtHSY2Uf6WE:APA91bG0V_JNevPl0Lemc0jb7n03PdHsN9pLZE_5QLpWFrEt26OllBZJ4oTnUlknJc4wFv49bq98bCAzkeBFhVYB_1miv4dW-hEwJBwg0BygTOvyigag8BejtN2JsNku2fxk-cRVK_W6",
    "keys": {
-       "p256dh": "BFgYu8vQ5Zaln9H91egsZw0g4Xu6Cfeg1wqCroZBUhCpVtQUrO8Hi7Yk1sPTPlD32ZiHkDYTiPf/GpVpllDqWA8=",
-       "auth": "2YW94Eq4ojCwkpqOO0NQbA=="
+       "p256dh": "BE3/TX7UBu/WuytzLrMXZ5CITYscQKBKRZaehMcwMIaOzI/03qZybQ6U26Bxjd70ak0GU7HpjpNUwSI+8wh+/pk=",
+       "auth": "rATsMDC52E/Ma0mgRUc9IQ=="
    }
 };
 var payload = 'Jadwal Liga Inggris sebentar lagi dimulai';
